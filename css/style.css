@@ -44,10 +44,10 @@
 }
 
 .bx-check{
-    padding: 5px 5px;
+    /* padding: 5px 5px; */
     color: #fff;
     background-color: #ff4800;
-    font-size: 25px;
+    font-size: 23px;
     border-radius: 2px;
     margin-bottom: 13px;
     margin-right: 15px;
