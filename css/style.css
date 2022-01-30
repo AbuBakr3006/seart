@@ -91,20 +91,20 @@
 .smart::before{
     background-image: url('/imgs/smart-bg.jpeg');
     background-repeat: no-repeat;
-    /* opacity: 0.4; */
     content: '';
     display: block;
-    position: absolute;
-    top: 40%;
-    left: 0;
-    transform: translateY(-50%);
     width: 523px;
     height: 585px;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    opacity: 0.4;
     z-index: -1; 
 }
 
 .smart{
-    margin-top: 100px;
+    position: relative;
+    margin-bottom: 100px;
     height: 460px;
 }
 
@@ -180,10 +180,17 @@
 }
 
 .completed{
-    height: 443px;
-    padding: 110px 0px;
+    position: relative;
+}
+
+.completed::before{
+    content: '';
     background-image: url('/imgs/complated-bg.jpeg');
+    display: block;
+    position: absolute;
+    height: 443px;
     background-repeat: no-repeat;
-    background-position: center;
+    top: 0%;
+    left: 50%;
 }
 
