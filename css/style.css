@@ -96,7 +96,7 @@
     width: 523px;
     height: 585px;
     position: absolute;
-    top: 20%;
+    top: 0%;
     left: 0;
     opacity: 0.4;
     z-index: -1; 
@@ -106,7 +106,7 @@
     position: relative;
     margin-bottom: 100px;
     height: 460px;
-    padding: 110px 0px;
+    padding-bottom: 110px;
 }
 
 
