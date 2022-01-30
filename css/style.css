@@ -83,7 +83,7 @@
 }
 
 .smart__link:hover{
-    background-color: #7aa41c;
+    background-color: #5BBB24;
 }
 
 .smart{
@@ -93,4 +93,82 @@
     /* opacity: .4; */
 }
 
+.complated__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 125px;
+}
+
+.complated__title{
+    text-align: center;
+    width: 650px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.complated__text{
+    width: 520px;
+    margin-left: 50px;
+    font-size: 15px;
+    color: #57647c;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.compated__menu{
+    margin-left: 25%;
+    justify-content: center;
+    text-align: center;
+    width: 670px;
+}
+
+.complated__list{
+    color: #ff4800;
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.complated__link{
+    margin-left: 25%;
+    width: 690px;
+    height: 85px;
+    border: 1px solid #F5F5F5;
+    padding: 20px 20px;
+}
+
+.complated__link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.complated__link-text{
+    margin-bottom: 10px;
+}
+
+.complated__links{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #FE4802;
+    transition: all 0.4s ease;
+}
+
+.complated__links:hover{
+    background-color: #5BBB24;
+}
+
+.completed{
+    height: 443px;
+    padding: 110px 0px;
+    background-image: url('/imgs/complated-bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
