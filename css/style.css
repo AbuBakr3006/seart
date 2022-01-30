@@ -96,7 +96,7 @@
     width: 523px;
     height: 585px;
     position: absolute;
-    top: 0%;
+    top: 20%;
     left: 0;
     opacity: 0.4;
     z-index: -1; 
@@ -106,6 +106,7 @@
     position: relative;
     margin-bottom: 100px;
     height: 460px;
+    padding: 110px 0px;
 }
 
 
@@ -156,7 +157,7 @@
     width: 600px;
     /* height: 85px; */
     border: 1px solid #F5F5F5;
-    padding: 40px 40px;
+    padding: 30px 40px;
 }
 
 .complated__link{
@@ -184,6 +185,7 @@
 
 .completed{
     position: relative;
+    padding: 110px 0px;
 }
 
 .completed::before{
@@ -195,7 +197,7 @@
     height: 443px;
     background-repeat: no-repeat;
     background-position: center;
-    top: 0%;
+    top: 20%;
     left: 0%;
     z-index: -1;
 }
