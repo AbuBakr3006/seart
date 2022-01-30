@@ -1,7 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container{
@@ -86,11 +88,24 @@
     background-color: #5BBB24;
 }
 
-.smart{
-    height: 602px;
+.smart::before{
     background-image: url('/imgs/smart-bg.jpeg');
     background-repeat: no-repeat;
-    /* opacity: .4; */
+    /* opacity: 0.4; */
+    content: '';
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 523px;
+    height: 585px;
+    z-index: -1; 
+}
+
+.smart{
+    margin-top: 100px;
+    height: 460px;
 }
 
 .complated__item{
