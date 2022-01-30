@@ -138,7 +138,7 @@
     margin-bottom: 65px;
 }
 
-.compated__menu{
+.complated__menu{
     margin-left: 25%;
     justify-content: center;
     text-align: center;
@@ -183,12 +183,12 @@
     background-color: #5BBB24;
 }
 
-.completed{
+.complated{
     position: relative;
     padding: 110px 0px;
 }
 
-.completed::before{
+.complated::before{
     content: '';
     background-image: url('/imgs/complated-bg.jpeg');
     display: block;
